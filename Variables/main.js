@@ -16,6 +16,7 @@ a=8;
 var d; //declaration
 let e; //declaration and initialisation(pehli value dena initialisation kehlata hai)
 // const f; -> aap aisa kuch nahi kar skte ho
+console.log(b);
 var a = 10;
 let b = 12; // -> block scoped hota hai
 const c = 14; // agar chahte hai ki ye badle na tab hum const ka use krte hai
