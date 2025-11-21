@@ -1,0 +1,41 @@
+@font-face {
+    font-family:"gilroy";
+    src: url(../MiniProject/Gilroy-Medium.ttf);
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 56, 56);
+}
+input{
+    display:none;
+}
+button{
+    padding: 20px 50px;
+    background-color:#1F6754;
+    border: none;
+    border-radius: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: "gilroy";
+}
+button:hover{
+    background-color: #19463a;
+    cursor: pointer;
+}
+button:active{
+    scale: 0.9;
+}

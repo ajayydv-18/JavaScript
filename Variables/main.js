@@ -42,7 +42,7 @@ var name = "shrey"; //koi error nahi aaya let mein error aaega
 //     {
 //         let c = 13; //ye hai block scoped
 //         d = c;      // d tha global 
-//         var e = 15;
+//         var e = 15; //ye bhi functionall scope hiat hai
 //     }
 //     e=17;
 // }

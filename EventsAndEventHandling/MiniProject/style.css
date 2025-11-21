@@ -1,0 +1,27 @@
+@font-face {
+    font-family:"gilroy" ;
+    src: url(./Gilroy-Medium.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+main{
+    height: 100%;
+    width: 100%;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-size: 12rem;
+    color: rgb(141, 131, 131);
+    font-weight: 100;
+    font-family: "gilroy";
+}
