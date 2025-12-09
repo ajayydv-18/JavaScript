@@ -1,0 +1,1 @@
+Ajay.call(student1);
